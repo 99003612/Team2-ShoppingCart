@@ -343,4 +343,8 @@ public class HomeController {
 
 
     }
+        	@GetMapping("/Payment")
+    	public String Payment() {
+    		return "Payment";
+}
 }
