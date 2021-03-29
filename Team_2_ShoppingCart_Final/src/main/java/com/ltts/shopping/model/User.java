@@ -1,6 +1,7 @@
 package com.ltts.shopping.model;
 
 import java.util.Collection;
+import java.util.Date;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -33,6 +34,12 @@ public class User {
 	
 	private String password;
 	
+	@Column(name = "contact")
+	private String contact;
+	
+	@Column(name = "date")
+	private String date;
+	
 	@ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	@JoinTable(
 			name = "users_roles",
@@ -47,14 +54,25 @@ public class User {
 		
 	}
 	
-	public User(String firstName, String lastName, String email, String password, Collection<Role> roles) {
+	public User(String firstName, String lastName, String email, String password,  String contact, String date,Collection<Role> roles) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
 		this.password = password;
 		this.roles = roles;
+		this.contact = contact;
+		this.date = date;
+		this.roles = roles;
 	}
+	/*
+	 * public User(Long id, String firstName, String lastName, String email, String
+	 * password, String contact, Date date, Collection<Role> roles) { super();
+	 * this.id = id; this.firstName = firstName; this.lastName = lastName;
+	 * this.email = email; this.password = password; this.contact = contact;
+	 * this.date = date; this.roles = roles; }
+	 */
+
 	public Long getId() {
 		return id;
 	}
@@ -91,5 +109,28 @@ public class User {
 	public void setRoles(Collection<Role> roles) {
 		this.roles = roles;
 	}
+
+	public String getContact() {
+		return contact;
+	}
+
+	public void setContact(String contact) {
+		this.contact = contact;
+	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
+
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
+				+ ", password=" + password + ", contact=" + contact + ", date=" + date + ", roles=" + roles + "]";
+	}
+
 
 }
