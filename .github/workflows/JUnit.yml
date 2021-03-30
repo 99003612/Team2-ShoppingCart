@@ -1,20 +1,19 @@
-name: tests
-on: push
+name: JUnit
+on:
+  pull_request:
+
 jobs:
-  run_tests:
+  build:
+    name: Build and Run Tests
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v2
-      - name: Set up JDK 8
-        uses: actions/setup-java@v1
+      - name: Checkout Code
+        uses: actions/checkout@v1
+      - name: Build and Run Tests
+        run:  Team_2_Shopping_Cart_Final
+      - name: JUnit Report Action
+        uses: mikepenz/action-junit-report@v2.2.1
+
         with:
-          java-version: 14
-      - name: Cache Maven packages
-        uses: actions/cache@v2
-        with:
-          path: ~/.m2
-          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-          restore-keys: ${{ runner.os }}-m2
-      - name: Run tests with Maven
-        run: mvn -B test --Team_2_Shopping_Cart_Final pom.xml
+          report_paths: '**/build/Team_2_Shopping_Cart_Final/TEST-*.xml'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
