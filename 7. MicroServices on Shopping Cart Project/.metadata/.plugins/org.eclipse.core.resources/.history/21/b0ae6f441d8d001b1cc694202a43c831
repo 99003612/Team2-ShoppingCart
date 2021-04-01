@@ -1,0 +1,5 @@
+package com.ltts.Basket.Dao;
+
+public class BasketDao {
+
+}
