@@ -17,5 +17,5 @@ jobs:
         max_defects_rate: '1'
         max_complex_functions_rate: '1'
         max_long_functions_rate: '1'
-        project_name: ''
+        project_name: 'Team2-ShoppingCart'
         max_timeout_sec: '600'
