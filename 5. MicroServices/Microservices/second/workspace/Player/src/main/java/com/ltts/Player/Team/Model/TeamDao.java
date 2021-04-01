@@ -1,0 +1,27 @@
+package com.ltts.Player.Team.Model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+//import com.ltts.Player.Team.Model.*;
+
+@Repository
+public class TeamDao {
+	
+	public List<Team> getAllPlayers()
+	{
+		List<Team> li = new ArrayList<Team>();
+		
+		li.add(new Team (1));
+		
+		li.add(new Team (2));
+		
+		li.add(new Team (3));
+		
+		return li;
+		
+		}
+
+}

@@ -1,0 +1,36 @@
+package com.ltts.Items.Dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.ltts.Items.Model.Items;
+
+	@Repository
+	public class ItemsDao {
+		
+		public List<Items> getAllItems()
+		{
+			List<Items> li = new ArrayList<Items>();
+			
+			li.add(new Items ("Shampoo",10.0,120));
+			
+			li.add(new Team (2,"MI","Ambani"));
+			
+			li.add(new Team (3,"RCB","Mallya"));
+			
+			return li;
+			
+			
+			
+			
+			
+		}
+		
+		
+
+	}
+
+
+}

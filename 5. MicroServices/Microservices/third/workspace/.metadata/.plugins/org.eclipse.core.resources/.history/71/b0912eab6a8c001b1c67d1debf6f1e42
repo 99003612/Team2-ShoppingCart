@@ -1,0 +1,4 @@
+server.port = 8761  //defualt port for microservices
+
+spring.application.name=DetailInfo_DetailInfo //name of application 
+

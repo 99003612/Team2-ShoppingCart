@@ -1,0 +1,27 @@
+package com.ltts.DetailInfo.model;
+
+public class Player 
+{
+	private int pid;
+
+	public int getPid() {
+		return pid;
+	}
+
+	public void setPid(int pid) {
+		this.pid = pid;
+	}
+
+	public Player(int pid) {
+		super();
+		this.pid = pid;
+	}
+
+	@Override
+	public String toString() {
+		return "Player [pid=" + pid + "]";
+	}
+	
+	
+
+}

@@ -1,0 +1,36 @@
+package com.ltts.DetailInfo.model;
+
+public class PlayerTeam 
+{
+	private int pid;
+
+	public int getPid() {
+		return pid;
+	}
+
+	public void setPid(int pid) {
+		this.pid = pid;
+	}
+
+	private int teamNo;
+	
+	public int getTeamNo() {
+		return teamNo;
+	}
+	public void setTeamNo(int teamNo) {
+		this.teamNo = teamNo;
+	}
+
+	@Override
+	public String toString() {
+		return "PlayerTeam [pid=" + pid + ", teamNo=" + teamNo + "]";
+	}
+
+	public PlayerTeam(int pid, int teamNo) {
+		super();
+		this.pid = pid;
+		this.teamNo = teamNo;
+	}
+	
+	
+}

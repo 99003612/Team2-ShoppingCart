@@ -1,0 +1,31 @@
+package com.ltts.Player.Dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.ltts.Player.Model.Player;
+
+
+@Repository
+public class PlayerDao 
+{
+	public List<Player> getAllPlayers()
+{
+	List<Player> li = new ArrayList<Player>();
+	
+	li.add(new Player (1,"Dhoni",1));
+	
+	li.add(new Player (2,"Rohit",2));
+	
+	li.add(new Player (3,"Virat",3));
+	li.add(new Player (4,"Raina",1));
+	
+	return li;
+	
+	}
+
+
+
+}
