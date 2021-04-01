@@ -10,10 +10,10 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v1
       - name: Build and Run Tests
-        run:  Team_2_Shopping_Cart_Final
+        run:  Team2-ShoppingCart
       - name: JUnit Report Action
         uses: mikepenz/action-junit-report@v2.2.1
 
         with:
-          report_paths: '**/build/Team_2_Shopping_Cart_Final/TEST-*.xml'
+          report_paths: '**/build/TEST-*.xml'
           github_token: ${{ secrets.GITHUB_TOKEN }}
