@@ -1,0 +1,159 @@
+OBJECTIVES AND REQUIREMENTS OF SHOPPING CART
+Objective: 
+•	Looking for an online shopping site to manage the items in the shop and also help customers purchase them online without having to visit the shop physically.
+•	To sell products at lower rate due to less overhead.
+•	Secure transaction.
+
+Functional Requirements:
+
+1. Secure login and registration and profile management facilities for Customers.
+2. Login  using the e-mail already registered to see the items that are there in each category of daily need items like shampoo, biscuits etc.
+3. Creating a Shopping cart so that customer can choose the desired no. of items of required products
+4. Secure mechanism for checking out from the Shop. 
+5. Updates to customers about the Recent Items in the Shop.
+6. Facility to mention the customers if any product goes out of stock before checkout.
+7. Give special discounts to premium customers.
+8. Providing the facility of getting the final bill at the end of every checkout process.
+9. Providing the facility to customers to search their desired product.
+10.Providing the facility to add products in cart before checkout.
+
+
+Non-Functional Requirements:
+
+1. Security of confidential data which includes user personal details that is User name, passwords, mobile number and address information. 
+2. All-time(24 x 7) access to the products. 
+3. Better component design to achieve better performance at peak times.
+4. Flexible service based architecture will be highly desirable for future extension.
+
+THE 4 W’S Of E-Shopping Cart Project 
+
+•WHY? 
+There is a requirement of this online shopping cart because nowadays people do not want to go out and do shopping in traditional way.
+As the traditional shopping method requires efforts and is also very time-consuming.Hence,it will save time and can be used remotely.
+
+•WHAT? 
+This e-shopping cart is the modern version of shopping where people don’t need to go out and purchase products. 
+They can choose and buy any product they want just by sitting in their homes or any place with the use of technology 
+by searching through items and buying by just simple clicks. 
+It is an online e-commerce website with certain products with prices displayed along with it, and provides billing at the end of purchase 
+of products in the cart. 
+There is a login and registration facility. 
+	
+•WHEN?
+It can be done online at any suitable time through any device like phone, laptop, tablet etc.  There should be internet connection on the device.
+	
+•WHERE?
+	
+As it is easily available and easy to access,this can be used 24 hours throughout the day.
+It does not require a specific time table or certain time limit to perform the purchase without any restriction.
+It can be done online through any device like phone, laptop, tablet etc.  There should be internet connection on the device.
+
+Classification of requirements
+
+•Business requirements. 
+These include high-level statements of goals, objectives, and needs. 
+To have enough sales with profits on the sale of every product and having a brand value so that a customer always makes his another purchase after his first purchase.
+
+•Stakeholder requirements. 
+The needs of discrete stakeholder groups are also specified to define what they expect from a particular solution. 
+The requirement here is to fulfil the needs of customers by getting all the products available for them plus simultaneously fulfilling the goals of the investors so that their products become approachable for the customers.
+
+Feasibility Study
+
+•Technical Feasibility
+
+The project has a detailed design for the system and all the tools required to build the project are available for free. 
+The assessment of this feasibility must be based on an outline design of the system requirement in terms of input, output, programs, and procedure. The system is self explanatory and does not require any entire sophisticated training. The system has been built by concentrating on graphical user interface concepts, the application can be handled very easily with novice uses. The overall time a user needs to get trained is less than 15 minutes. The system has been added with features of menu device and button interaction method. As the software that was used as developing this application are very economical and are readily available in the market. The customer only needs to visit the website.
+This project was implemented using Spring boot application, Spring Security, Thymeleaf, Hibernate and MySQL.
+	
+Import the project in spring tool suite 4 and in test file run the /Team_2_Shopping_Cart_Final/src/main/java/com/ltts/shopping/
+/ShoppingCartDemoApplication.java run in Junit
+
+Run . Navigate to http://localhost:9000/. The app will automatically reload if you change any of the source files.
+	
+	
+
+•Operational Feasibility
+It refers to the feasibility of the product to be operational. Sometimes some project work well in design and implementation 
+but can fail in real time environment but this project passes the operational feasibility as it do not require very complex requirements. 
+It is easy to operate and handy to use. It is able to perform all the necessary requirements in online mode that a tradition shop requires.
+
+
+•Economic Feasibility
+
+• Developer : 
+The economic feasibility will be in terms of the profit gained after selling products in comparison to the investment on these products and 
+efforts or it can be equal to that in some cases but if it is lower than the assumed estimation of profit and investment then it is not 
+feasible economically to implement such project.
+	
+• User :
+The project includes all open-source softwares and they are free to install and use. 
+
+SWOT ANALYSIS 
+1. Strengths
+   •No time consumption-As it is an online method of shopping so there is no ned to go out and visit shops to purchase the things we want and thus it saves alot of time.
+   If compared it is the most easiest way to shop.
+		
+   •Products at cheaper prices-
+   As the products here are sold online so there is less complex taxes as they are directly sold from manufacturers to customers without involvement of third
+   parties and hence they can be purchased in lower rates.
+		
+   •Less efforts required in shopping compared to traditional shopping-
+    Since this project is online there is no need to go out and search the products outside without knowing whether they are available or not and thus can be searched 
+    instantly and can know thier availability status without much efforts.
+	
+   •Easy to use-
+    It is very easy to use as it has user friendly buttons and scroll options and thus there is no need of extra knowledge.
+		
+   •Cashless transaction is also available-
+    There is option to pay it online without use of cash which is the most used method of payment now-a-days
+
+2. Weakness
+   •Requires a good internet connection to use-
+    Internet connection is the most needed requirement here to operate it thus users who don't have internet connection will not be able to use it
+    plus they need a constant and a good internet connection to use it.Sometimes it can be difficult for users who don't own smart gadgets and 
+    are not much familiar with new technology updates.
+	
+3. Opportunities
+   •This could be the new future of shopping as people no ore want to go out purchase things regularly-
+    With the update of technology there is a possibility that it can be the new face of shopping in future and can be a mandatory method of 
+    shopping with new customers.
+		
+   •There could be more new technologies or features that can be added in it in future-
+    This could be updated in future with implementation of new technology or features and can come up with a newer version with a lot of additional facilities.
+	
+4.Threats
+	
+  •Competition from new investors in market-
+   As there will be a sudden boom in the requirement of online shopping method so there is a possibility that new competetors can come up in market 
+   giving though competitions.
+		
+  •Internet issues can be serious threat-
+   As the whole project is fully dependent on internet so a single issue in internet can totally result in failure of this project so it is necessary 
+   to maintain the internet connection.
+		
+  •Site crash or virus attack can be a threat-
+   Virus attacks are the biggest threat to the project and plus a failure in site or site crash can loosen the interest of customers from this project so these 
+   tecnical issues should be resolved from time to time.
+		
+
+	Strength                                                   |Weakness
+	-----------------------------------------------------------|-----------------------------------------------------------------------
+	No time consumption.                                       |Requires a good internet connection to use.
+	People need smart devices to shop.                         |People who does not have modern gadgets.
+	Less efforts required in shopping.			   |People without knowledge of technology will face difficulty to operate.
+	Easy to use.						   |There is a need of doing updates time to time.
+	Cashless transaction is available.			   |Needs recognition and advertisement for website visit.
+	-----------------------------------------------------------|-------------------------------------------------------------------------
+	Opportunities                                              |Threats            
+	New future of shopping.				           |Competition from new investors
+	Possibility of further addition of technology.	           |Internet issues
+	Can be linked with small industries and local shops also.  |Cyber attacks or leak of personal data.							   
+	Apart from daily needs more variety of products can be     |Failure of sites.
+	added.							   |
+								   
+								   
+								   
+					
+  
+  
