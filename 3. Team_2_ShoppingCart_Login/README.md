@@ -1,17 +1,46 @@
-# YouTube Tutorial Series - Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL
+**About**
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 1 at https://youtu.be/Hk70e7KR290
+This is a demo project of full-stack Online Shop web application using Spring Boot 4 and Hibernate 5. The main idea was to build a basic shopping cart web app for Grocery Shopping with login and registration functionality included in it. So here, we tried implementing Login and Registration.
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 2 at https://youtu.be/JE7KaTIF1Z4
+**Prerequisites**
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 3 at https://youtu.be/VqitTIMG5uI
+- Java
+- Maven 
+- MySQL
+- Spring Boot
+- Hibernate
+- HTML , CSS & Javascript
+- JPA
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 4 at https://youtu.be/uS8zA3W8p5s
+**Configuration Files**
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 5 at https://youtu.be/hPCynjmapSo
+Folder src/resources, contains config files for Shopping Cart Spring Boot application.
+- src/resources/application.propeties
+- main configuration file. One can change username and password here along with port number.
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 6 at https://youtu.be/hE_STc3eWzE
 
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 7 at https://youtu.be/Tu3lBxlFBlM
-
-Registration and Login with Spring Boot, Spring Security, Thymeleaf, Hibernate and MySQL - PART 8 at https://youtu.be/KKjKFLKlCbc
+**Folder Structure**
+```
+ 
+Team_2_ShoppingCart
+├── src
+│   └── main
+│   │   ├── java/com/ltts/shopping
+│   │   │   ├── config
+│   │   │   ├── model
+│   │   │   ├── pagination
+│   │   │   ├── repository
+│   │   │   ├── service
+│   │   │   └── web
+│   │   ├── resources
+│   │   │       ├── templates
+│   │   │       └── application.properties
+│   └── test
+├── target
+│   └── classes
+│   │   ├── META-INF
+│   │   ├── com/ltts
+│   │   ├── templates
+│   │   └── application.properties
+└── pom.xml
+```
