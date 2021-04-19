@@ -28,6 +28,54 @@ Name                     |  PS No.   | Features                                 
 `5) Akash Singh`         | 99003615  |Back-End Application and Session Management and Billing and Linking of Front-End and Back-End     | on restful web sevices    | RestFul Web Services issues are resolved
 
 
+#### E-Shopping Cart Website Screenshots
+
+* Login Page 
+![login](https://user-images.githubusercontent.com/32004729/113093312-497b9c80-920d-11eb-8577-a68bc4ec4a56.PNG)
+
+
+* Registration Page
+![registration](https://user-images.githubusercontent.com/32004729/113093370-62844d80-920d-11eb-834b-d2fa8c697b09.PNG)
+
+
+* Home Page
+![homepage](https://user-images.githubusercontent.com/32004729/113093433-7d56c200-920d-11eb-8acb-91d27078cbab.PNG)
+
+
+* Add Customer Form
+![customerform](https://user-images.githubusercontent.com/32004729/113093464-9a8b9080-920d-11eb-9c25-d7db7fde004f.PNG)
+
+
+* Update Customer Form
+![updatecustomerform](https://user-images.githubusercontent.com/32004729/113094938-36b69700-9210-11eb-967f-caae5db490f6.PNG)
+
+
+* Delete Customer Form
+![deletecustomer](https://user-images.githubusercontent.com/32004729/113094980-4b932a80-9210-11eb-8dd8-1dc436b0f1bf.PNG)
+
+
+* Add Item Form
+![additemform](https://user-images.githubusercontent.com/32004729/113093676-fc4bfa80-920d-11eb-95ac-2a86bed16e74.PNG)
+
+
+* Delete Item
+![deleteitems](https://user-images.githubusercontent.com/32004729/113095032-61085480-9210-11eb-8ae0-e09aeb070ba3.PNG)
+
+
+* Update Item Form
+![updateitemform](https://user-images.githubusercontent.com/32004729/113093989-8c8a3f80-920e-11eb-8284-e7d40b861ec7.PNG)
+
+
+* Customer Shopping Form
+![customershoppingform](https://user-images.githubusercontent.com/32004729/113094074-af1c5880-920e-11eb-8991-1c5765732092.PNG)
+
+
+* Customer Shopping BILL
+![customershoppingbill](https://user-images.githubusercontent.com/32004729/113094139-ceb38100-920e-11eb-938e-fa827271d122.PNG)
+
+
+* Payment or (Checkout Form)
+![checkoutform](https://user-images.githubusercontent.com/32004729/113094872-1a1a5f00-9210-11eb-8324-2da79cde4354.PNG)
 
 
 # High Level Design
