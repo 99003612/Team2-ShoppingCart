@@ -103,7 +103,7 @@ Name                     |  PS No.   | Features                                 
 - The main challenges were faced during the creation of JPA annotations, like how to use these annotations and where to use it in the code. We solved this problem by learning how to implement these annotations and when and where are they required. By using annotations like @Entity, @Id, @Column etc. we created tables in database.
 - Another challenge we faced was working with Micro services and establishing a connection with database. We were able to solve it by learning properties and methods required to establish the connection with database.
 Working with Spring MVC took the most of our time, but we were finally able to solve the challenges faced, which are as followed:
-- Another problem that we faced during project implementation was linking the JSP files to controller classes. We overcome this problem by learning how to give connection to individual JSP files and also JSP pages to a controller class.
+- Another problem that we faced during project implementation was linking the JSP files to controller classes. We overcome this problem by learning how to give connection to individual JSP files and JSP pages to a controller class.
 
 ## Learning folder
 1. [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
